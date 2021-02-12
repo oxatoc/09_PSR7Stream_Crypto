@@ -1,0 +1,10 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="crypto">
+        <file>tests/DecoratorBaseClassTest.php</file>
+        <file>tests/DecoratorDecryptionClassTest.php</file>
+        <file>tests/DecoratorEncryptionClassTest.php</file>
+        <file>tests/DecoratorEncryptionStreamingClassTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>

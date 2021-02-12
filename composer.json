@@ -1,0 +1,16 @@
+{
+    "name": "oxatoc/whatsappcrypto",
+    "description": "demo project",
+    "type": "project",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Oxatoc\\StreamCrypto\\": "src/",
+            "Oxatoc\\StreamCryptoTests\\": "tests/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
